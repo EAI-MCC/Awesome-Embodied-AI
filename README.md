@@ -11,7 +11,8 @@ A curated list of papers and open-source resources focused on Embodied AI, inten
   - [Reinforcement Learning](#reinforcement-learning)
 - [Navigation](#navigation)
 - [Locomotion](#locomotion)
-
+- [Other](#other)
+  
 <br>
 
 <br>
@@ -45,7 +46,7 @@ We present Im2Flow2Act, a scalable learning framework that enables robots to acq
 This paper introduces DiffTOP, which utilizes Differentiable Trajectory OPtimization as the policy representation to generate actions for deep reinforcement and imitation learning. Trajectory optimization is a powerful and widely used algorithm in control, parameterized by a cost and a dynamics function. The key to our approach is to leverage the recent progress in differentiable trajectory optimization, which enables computing the gradients of the loss with respect to the parameters of trajectory optimization. As a result, the cost and dynamics functions of trajectory optimization can be learned end-to-end. DiffTOP addresses the ``objective mismatch'' issue of prior model-based RL algorithms, as the dynamics model in DiffTOP is learned to directly maximize task performance by differentiating the policy gradient loss through the trajectory optimization process. We further benchmark DiffTOP for imitation learning on standard robotic manipulation task suites with high-dimensional sensory observations and compare our method to feed-forward policy classes as well as Energy-Based Models (EBM) and Diffusion. Across 15 model-based RL tasks and 35imitation learning tasks with high-dimensional image and point cloud inputs, DiffTOP outperforms prior state-of-the-art methods in both domains.
 </details>
 
-  [📄 Paper](https://arxiv.org/pdf/2402.05421) | [🌐 Project Page](None) | [💻 Code](None) 
+  [📄 Paper](https://arxiv.org/pdf/2402.05421) | [🌐 Project Page](None) | [💻 Code](Not available) 
 <br>
 
 ### Reinforcement Learning:
@@ -54,3 +55,13 @@ This paper introduces DiffTOP, which utilizes Differentiable Trajectory OPtimiza
 
 ## Locomotion：
 
+## Other:
+
+### 1. Open-TeleVision: Teleoperation with Immersive Active Visual Feedback
+**Authors** Xuxin Cheng, Jialong Li, Shiqi Yang, Ge Yang, Xiaolong Wang
+<details span>
+<summary><b>Abstract</b></summary>
+Teleoperation serves as a powerful method for collecting on-robot data essential for robot learning from demonstrations. The intuitiveness and ease of use of the teleoperation system are crucial for ensuring high-quality, diverse, and scalable data. To achieve this, we propose an immersive teleoperation system Open-TeleVision that allows operators to actively perceive the robot's surroundings in a stereoscopic manner. Additionally, the system mirrors the operator's arm and hand movements on the robot, creating an immersive experience as if the operator's mind is transmitted to a robot embodiment. We validate the effectiveness of our system by collecting data and training imitation learning policies on four long-horizon, precise tasks (Can Sorting, Can Insertion, Folding, and Unloading) for 2 different humanoid robots and deploy them in the real world. The system is open-sourced at: this [https URL](https://robot-tv.github.io/)
+</details>
+
+ [📄 Paper](https://arxiv.org/abs/2407.01512) | [🌐 Project Page](https://robot-tv.github.io/) | [💻 Code](https://github.com/OpenTeleVision/TeleVision) 
