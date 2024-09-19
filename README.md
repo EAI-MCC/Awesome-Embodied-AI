@@ -1,4 +1,4 @@
-# Awesome 3D Gaussian Splatting Resources 
+# Awesome Embodied AI Resources 
 
 A curated list of papers and open-source resources focused on Embodied AI, intended to keep pace with the anticipated surge of research in the coming months. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
 
