@@ -6,7 +6,7 @@ A curated list of papers and open-source resources focused on Embodied AI, inten
 
 <br>
 
-- [Robotic Manipulation](#manipulation)
+- [Robotic Manipulation](#robotic-manipulation)
   - [Imitation Learning](#imitation-learning)
   - [Reinforcement Learning](#reinforcement-learning)
 - [Navigation](#navigation)
@@ -17,8 +17,10 @@ A curated list of papers and open-source resources focused on Embodied AI, inten
 <br>
 
 ## Robotic Manipulation:
-## 2024:
-### 1. RVT-2: Learning Precise Manipulation from Few Demonstrations 
+
+### Imitation Learning:
+### 2024:
+#### 1. RVT-2: Learning Precise Manipulation from Few Demonstrations 
 **Authors**: Ankit Goyal, Valts Blukis, Jie Xu, Yijie Guo, Yu-Wei Chao, Dieter Fox 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -28,3 +30,10 @@ In this work, we study how to build a robotic system that can solve multiple 3D 
   [📄 Paper](https://arxiv.org/pdf/2406.08545v1) | [🌐 Project Page](https://robotic-view-transformer-2.github.io/) | [💻 Code](https://github.com/nvlabs/rvt) 
 
 <br>
+
+### Reinforcement Learning:
+
+## Navigation：
+
+## Locomotion：
+
