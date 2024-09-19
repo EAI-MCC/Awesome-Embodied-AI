@@ -38,6 +38,14 @@ We present Im2Flow2Act, a scalable learning framework that enables robots to acq
 
   [📄 Paper](https://www.arxiv.org/abs/2407.15208) | [🌐 Project Page](https://im-flow-act.github.io/) | [💻 Code](Coming soon) 
 
+#### 3. DiffTOP: Differentiable Trajectory Optimization for Deep Reinforcement and Imitation Learning
+**Authors** Weikang Wan, Yufei Wang, Zackory Erickson, David Held
+<details span>
+<summary><b>Abstract</b></summary>
+This paper introduces DiffTOP, which utilizes Differentiable Trajectory OPtimization as the policy representation to generate actions for deep reinforcement and imitation learning. Trajectory optimization is a powerful and widely used algorithm in control, parameterized by a cost and a dynamics function. The key to our approach is to leverage the recent progress in differentiable trajectory optimization, which enables computing the gradients of the loss with respect to the parameters of trajectory optimization. As a result, the cost and dynamics functions of trajectory optimization can be learned end-to-end. DiffTOP addresses the ``objective mismatch'' issue of prior model-based RL algorithms, as the dynamics model in DiffTOP is learned to directly maximize task performance by differentiating the policy gradient loss through the trajectory optimization process. We further benchmark DiffTOP for imitation learning on standard robotic manipulation task suites with high-dimensional sensory observations and compare our method to feed-forward policy classes as well as Energy-Based Models (EBM) and Diffusion. Across 15 model-based RL tasks and 35imitation learning tasks with high-dimensional image and point cloud inputs, DiffTOP outperforms prior state-of-the-art methods in both domains.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2402.05421) | [🌐 Project Page](/) | [💻 Code](/) 
 <br>
 
 ### Reinforcement Learning:
