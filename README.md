@@ -20,7 +20,7 @@ A curated list of papers and open-source resources focused on Embodied AI, inten
 
 ### Imitation Learning:
 ### 2024:
-#### 1. RVT-2: Learning Precise Manipulation from Few Demonstrations 
+#### 1. [RSS 2024]RVT-2: Learning Precise Manipulation from Few Demonstrations 
 **Authors**: Ankit Goyal, Valts Blukis, Jie Xu, Yijie Guo, Yu-Wei Chao, Dieter Fox 
 <details span>
 <summary><b>Abstract</b></summary>
