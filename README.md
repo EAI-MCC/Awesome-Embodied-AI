@@ -29,6 +29,15 @@ In this work, we study how to build a robotic system that can solve multiple 3D 
 
   [📄 Paper](https://arxiv.org/pdf/2406.08545v1) | [🌐 Project Page](https://robotic-view-transformer-2.github.io/) | [💻 Code](https://github.com/nvlabs/rvt) 
 
+#### 2. Flow as the Cross-Domain Manipulation Interface
+**Authors** Mengda Xu, Zhenjia Xu, Yinghao Xu, Cheng Chi, Gordon Wetzstein, Manuela Veloso, Shuran Song
+<details span>
+<summary><b>Abstract</b></summary>
+We present Im2Flow2Act, a scalable learning framework that enables robots to acquire manipulation skills from diverse data sources. The key idea behind Im2Flow2Act is to use object flow as the manipulation interface, bridging domain gaps between different embodiments (i.e., human and robot) and training environments (i.e., real-world and simulated). Im2Flow2Act comprises two components: a flow generation network and a flow-conditioned policy. The flow generation network, trained on human demonstration videos, generates object flow from the initial scene image, conditioned on the task description. The flow-conditioned policy, trained on simulated robot play data, maps the generated object flow to robot actions to realize the desired object movements. By using flow as input, this policy can be directly deployed in the real world with a minimal sim-to-real gap. By leveraging real-world human videos and simulated robot play data, we bypass the challenges of teleoperating physical robots in the real world, resulting in a scalable system for diverse tasks. We demonstrate Im2Flow2Act's capabilities in a variety of real-world tasks, including the manipulation of rigid, articulated, and deformable objects.
+</details>
+
+  [📄 Paper](https://www.arxiv.org/abs/2407.15208) | [🌐 Project Page](https://im-flow-act.github.io/) | [💻 Code](Coming soon) 
+
 <br>
 
 ### Reinforcement Learning:
