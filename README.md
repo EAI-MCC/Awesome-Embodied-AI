@@ -14,6 +14,8 @@ A curated list of papers and open-source resources focused on Embodied AI, inten
 
 <br>
 
+<br>
+
 ## Robotic Manipulation:
 ## 2024:
 ### 1. RVT-2: Learning Precise Manipulation from Few Demonstrations 
@@ -24,3 +26,5 @@ In this work, we study how to build a robotic system that can solve multiple 3D 
 </details>
 
   [📄 Paper](https://arxiv.org/pdf/2406.08545v1) | [🌐 Project Page](https://robotic-view-transformer-2.github.io/) | [💻 Code](https://github.com/nvlabs/rvt) 
+
+<br>
