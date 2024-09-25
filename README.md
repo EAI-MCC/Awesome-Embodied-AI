@@ -9,6 +9,7 @@ A curated list of papers and open-source resources focused on Embodied AI, inten
 - [Robotic Manipulation](#robotic-manipulation)
   - [Imitation Learning](#imitation-learning)
   - [Reinforcement Learning](#reinforcement-learning)
+  - [Large Model](#large-model)
 - [Navigation](#navigation)
 - [Locomotion](#locomotion)
 - [Other](#other)
@@ -50,6 +51,16 @@ This paper introduces DiffTOP, which utilizes Differentiable Trajectory OPtimiza
 <br>
 
 ### Reinforcement Learning:
+### Large Model
+#### 1. ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation
+**Authors**  Wenlong Huang, Chen Wang, Yunzhu Li, Ruohan Zhang, Li Fei-Fei
+<details span>
+<summary><b>Abstract</b></summary>
+Representing robotic manipulation tasks as constraints that associate the robot and the environment is a promising way to encode desired robot behaviors. However, it remains unclear how to formulate the constraints such that they are 1) versatile to diverse tasks, 2) free of manual labeling, and 3) optimizable by off-the-shelf solvers to produce robot actions in real-time. In this work, we introduce Relational Keypoint Constraints (ReKep), a visually-grounded representation for constraints in robotic manipulation. Specifically, ReKep is expressed as Python functions mapping a set of 3D keypoints in the environment to a numerical cost. We demonstrate that by representing a manipulation task as a sequence of Relational Keypoint Constraints, we can employ a hierarchical optimization procedure to solve for robot actions (represented by a sequence of end-effector poses in SE(3)) with a perception-action loop at a real-time frequency. Furthermore, in order to circumvent the need for manual specification of ReKep for each new task, we devise an automated procedure that leverages large vision models and vision-language models to produce ReKep from free-form language instructions and RGB-D observations. We present system implementations on a wheeled single-arm platform and a stationary dual-arm platform that can perform a large variety of manipulation tasks, featuring multi-stage, in-the-wild, bimanual, and reactive behaviors, all without task-specific data or environment models. Website at this https URL.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2409.01652) | [🌐 Project Page](https://rekep-robot.github.io/) | [💻 Code](https://github.com/huangwl18/ReKep) 
+<br>
 
 ## Navigation：
 
